@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{ Challenge #5 } | devChallenges</h1>
+<h1 align="center"> Challenge #5 | devChallenges</h1>
 
 <div align="center">
    Solution for a challenge <a href="https://devchallenges.io/challenge/testimonial-page" target="_blank">Testimonial Page</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="{https://github.com/ciri-dev/challenge5-devchallenges}">
+    <a href="https://github.com/ciri-dev/challenge5-devchallenges">
       Demo
     </a>
     <span> | </span>
@@ -39,4 +39,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 
 ## Author
-- GitHub [@ciri-dev](https://{github.com/ciri-dev})
+- GitHub [@ciri-dev](https://github.com/ciri-dev)
