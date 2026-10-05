@@ -22,6 +22,87 @@ body {
   height: 100vh;
   background-color: var(--bg-color);
   font-family: "Sora", sans-serif;
+  padding: 1rem;
+}
+
+span {
+  padding: 0.5rem;
+  background-color: var(--yellow-accent);
+  border-radius: 50%;
+}
+
+.star {
+  margin: 2rem 0 1rem 0;
+}
+
+h2 {
+  font-size: var(--heading);
+  color: var(--title);
+}
+
+.main-text {
+  font-size: var(--body);
+  color: var(--text);
+  margin: 1rem 0;
+}
+
+ul {
+  list-style: none;
+  font-size: var(--list-item);
+  color: var(--text);
+  margin: 2rem 0;
+}
+
+ul li {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+ul li::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: url("resources/Done_ring_round_fill.svg") center / contain no-repeat;
+}
+
+.item2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 2rem 2.5rem;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card .logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+.card h4 {
+  font-size: var(--body2);
+  color: var(--title);
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: var(--body2);
+  color: var(--text);
 }
 
 .author-info {
