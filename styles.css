@@ -78,7 +78,7 @@ ul li::before {
   background-color: var(--white);
   border-radius: 8px;
   padding: 2rem 2.5rem;
-  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
 }
 
 .card .logo-container {
@@ -114,4 +114,42 @@ ul li::before {
 
 .author-info a {
   text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding: 2rem;
+  }
+  .item2 {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    & .card:nth-child(1) {
+      grid-column: 3 / span 2;
+    }
+     .card:last-child {
+      grid-row-start: 2;
+      grid-column: 2 / span 2;
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+
+  .item2 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    & .card:nth-child(1) {
+      grid-column: 2 / span 2;
+    }
+     .card:last-child {
+      grid-column: 1 / span 2;
+    }
+  }
 }
