@@ -1,0 +1,36 @@
+:root {
+  --bg-color: #FAFAF9;
+  --white: #fff;
+  --title: #18181B;
+  --text: #52525A;
+  --yellow-accent: #F5C044;
+  --green-accent: #4CA154;
+
+  --heading: 2.25rem;
+  --body: 1.25rem;
+  --list-item: 0.875rem;
+  --body2: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--bg-color);
+  font-family: "Sora", sans-serif;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
